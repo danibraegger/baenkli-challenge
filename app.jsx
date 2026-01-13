@@ -1309,9 +1309,9 @@ function ParticipantView({ onBack }) {
       // Send to Google Form
       if (activeEvent.google_form_url) {
         const formData = new FormData();
-        formData.append('entry.NAME_FIELD', participantName);
-        formData.append('entry.POST_FIELD', post.name);
-        formData.append('entry.TIME_FIELD', new Date(timestamp).toLocaleString('de-CH'));
+        formData.append('entry.569449595', participantName);
+        formData.append('entry.325445212', post.name);
+        formData.append('entry.352391264', new Date(timestamp).toLocaleString('de-CH'));
 
         fetch(activeEvent.google_form_url, {
           method: 'POST',
