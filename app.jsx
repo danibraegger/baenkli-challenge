@@ -1,6 +1,6 @@
 // Supabase Configuration - WICHTIG: Hier deine eigenen Werte eintragen!
-const SUPABASE_URL = 'DEINE_SUPABASE_URL'; // z.B. https://xxxxx.supabase.co
-const SUPABASE_ANON_KEY = 'DEIN_SUPABASE_ANON_KEY'; // Langer String von Supabase
+const SUPABASE_URL = 'https://uoimyjydmiyeffdhiyve.supabase.co'; // z.B. https://xxxxx.supabase.co
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVvaW15anlkbWl5ZWZmZGhpeXZlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgzMzkwNDAsImV4cCI6MjA4MzkxNTA0MH0.SuUXcPvoz6e2JEchQrfkNPTor2p3GQBLqQ3HmugTRXo'; // Langer String von Supabase
 
 // Supabase Client initialisieren
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
